@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First</title>
+    <link href="index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    <div class="regform">
+        <h2 class="reg">Регистрация</h2>
+        <form action="post">
+            <div class="all">
+                <div class="alldivindiv">
+                    <label for="login" class="labels">Логин:</label>
+                    <input id="login"class="inputs" type="text" required placeholder="Ваш логин">
+                </div>
+                <div class="alldivindiv">
+                    <label for="passwd" class="labels">Пароль:</label>
+                    <input id="passwd" class="inputs" type="password" required placeholder="Ваш пароль">
+                </div>
+                <div class="alldivindiv">
+                    <label for="firstname" class="labels">Имя:</label>
+                    <input id="firstname" class="inputs" type="text" required placeholder="Ваше имя">
+                </div>
+                <div class="alldivindiv">
+                    <label for="lastname" class="labels">Фамилия:</label>
+                    <input id="lastname" class="inputs" type="text" required placeholder="Ваше фамилия">
+                </div>
+                <div class="alldivindiv">
+                    <label for="mail" class="labels">E-mail:</label>
+                    <input id="mail" class="inputs" type="email" required placeholder="Ваш e-mail">
+                </div>
+                <div class="alldivindiv">
+                    <label class="labels" for="country">Страна: </label>
+                    <select class="selects" name="country">
+                        <option>Выберите страну</option>
+                        <option value="Россия">Россия</option>
+                        <option value="Украина">Украина</option>
+                        <option value="Беларусь">Беларусь</option>
+                    </select>
+                </div>
+                    <button class="buttons" type="submit">Отправить</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
